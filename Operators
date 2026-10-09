@@ -1,0 +1,115 @@
+'''a=10
+b=15
+print(a+b)'''
+#variable
+'''a=5
+print(a)
+a="logeshwari"
+print(a)'''
+#keywords
+#help("keywords")
+#data types
+"""a=5
+print(a)
+print(type(a))
+a=5.2
+print(a)
+print(type(a))
+a="logeshwari"
+print(a)
+print(type(a))
+a=5+4j
+print(a)
+print(type(a))
+a=True
+print(a)
+print(type(a))
+#input
+a=input("enter a num1")
+b=input("enter a num2")
+print(a+b)
+a=int(input("enter a num1"))
+b=int(input("enter a num2"))
+print(a+b)
+a=int(input("enter a num1"))
+b=int(input("enter a num2"))
+print(a+b)"""
+
+#operators
+#arithmetic operators
+a=9
+b=2
+'''print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+#relational operators
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>=b)
+print(a>b)'''
+
+#logical operators
+
+'''a=5
+b=2
+print(a>b and a<b)
+print(a>b and a!=b)
+print(a>b or a<b)
+print(a>b or a!=b)
+print(not (a>b))'''
+'''print(a==b and a>b)
+print(a!=b and a>b)
+print(a==b or a>b)
+print(a!=b or a>b)
+print(not (a>b))'''
+
+#bitwise operators
+a=10
+b=5
+print(a&b)
+print(a|b)
+print(a^b)
+print(~a)
+print(a<<1)
+print(a>>1)
+
+#ASSIGNMENT OPERATORS
+'''a=5
+print(a)
+#a=a+5
+a+=5
+print(a)
+a-=2
+print(a)
+a*=7
+print(a)
+a/=4
+print(a)
+a%=5
+print(a)'''
+
+
+
+
+#membership operators----in,not in
+'''birds=["parrot","peacock","dove","crow"]
+print("dove" in birds)
+print("dove" not in birds)
+print("sparrow" in birds)'''
+
+
+#identity operators----is,is not
+
+'''x=[1,2,3]
+y=x
+z=[1,2,3]
+print(x==z)
+print(x is z)
+print(x is y)
+print(x is not z)'''
