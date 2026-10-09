@@ -1,0 +1,71 @@
+#control statements
+#selection control
+#if
+'''a=10
+if a<15:
+    print("a is lesser than 15")'''
+
+#if-else
+'''a=10
+if a>15:
+    print("a is greater than 15")
+else:
+    print("your condition is false")'''
+
+
+#if-elif-else
+'''age=int(input("enter your age"))
+if age<10:
+    print("you are eligible for slides games")
+elif age>=10 and age<=15:
+    print("eligible for haunted house")
+else:
+    print("you are not eligible")'''
+
+
+#login page
+'''name=input("enter your name")
+password=int(input("enter your password"))
+if name=="divin" and password==1234:
+    print("you are valid user login success")
+elif name!="divin" and password==1234:
+    print("invalid user")
+elif name=="divin" and password!=1234:
+    print("invalid password")
+else:
+    print("invalid username and password")'''
+'''marks = 45
+if marks >= 50:
+    if marks >= 90:
+        print("A")
+    elif marks >= 75:
+        print("B")
+    else:
+        print("C")
+else:
+    print("pass")
+
+
+#nested if
+
+print("===============CHOTTA BHEEM================")
+Character=input("choose your chotta bheem character:")
+if Character=="bheem":
+    print("eat your laddoooo.....")
+    enemy=input("choose your enemy")
+    if enemy=="dhamyan":
+        print("Magic snake")
+    elif enemy=="kirmada":
+        print("kirmada...kirmada...")
+    else:
+        print("bye bye the enemy defeated by bheem")
+elif Character=="chukki":
+    print("chukki....chukkki....")
+elif Character=="raju":
+    print("archer mode activated")
+elif Character=="jaggu":
+    print("Eating banana....")
+elif Character=="kalia"or Character=="dolu"or Character=="bolu":
+    print("they are against bheem")
+else:
+    print("you are belonging to dholakpur")'''
