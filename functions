@@ -1,0 +1,106 @@
+#functions
+#user defined functions
+#positional arguments
+'''def data(name,role,age):
+    print("name:",name)
+    print("role:",role)
+    print("age:",age)
+data("logeshwari","python developer",25)'''
+#default arguments
+'''def data(name,role,age=20):
+    print("name:",name)
+    print("role:",role)
+    print("age:",age)
+data("logeshwari","python developer")
+data("logesh","python developer",30)'''
+
+#keyword arguments
+'''def data(name,role,age):
+    print("name:",name)
+    print("role:",role)
+    print("age:",age)
+data(role="python developer",age=25,name="logeshwari")'''
+
+#variable length arguments
+#positional
+'''def data(*num):
+    print(num)
+data(20,40,60)
+
+#kw **data
+def data(**kwargs):
+   print(kwargs)
+data(role="python developer",age=25,name="logeshwari")'''
+
+#return function
+#without return without parameters
+'''def add():
+    a=5
+    b=6
+    print(a+b)
+add()'''
+
+#without return with parameters
+'''def add(a,b):
+    print(a+b)
+add(7,8)'''
+
+#with return without parameters
+'''def add():
+    a=5
+    b=6
+    return a+b
+ans=add()
+print(ans)
+print("operation:",ans*30)
+print("operation:",ans-20)'''
+
+#with return with parameters
+'''def add(a,b):
+    
+    return a+b
+ans=add(8,9)
+print(ans)
+print("operation:",ans*30)
+print("operation:",ans-20)'''
+
+#lambda function
+'''cube=lambda x:x*x*x
+print(cube(3))
+
+def cube(x):
+    c=x*x*x
+    print(c)
+
+cube(3)'''
+
+#map function
+'''num=[1,2,5,6]
+a=list(map(lambda x:x*3,num))
+print(a)
+#filter function
+num=[1,2,5,6,7,8,9]
+a=list(filter(lambda x:x%2!=0,num))
+print(a)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
